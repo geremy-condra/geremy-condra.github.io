@@ -28,9 +28,11 @@ twitter_username: nope
 github_username:  geremy-condra
 
 # Build settings
-theme: midnight
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/dark.css"
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

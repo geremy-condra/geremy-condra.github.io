@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+
+bundle exec jekyll post $1
+cd _posts
+subl -n `ls -Art | tail -n 1`
+
