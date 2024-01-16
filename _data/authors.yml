@@ -1,4 +1,8 @@
 Geremy Condra:
-      name: Geremy Condra
-      picture: "/assets/images/picture.jpg"
-      email: geremy.condra@gmail.com
+  name: Geremy Condra
+  picture: "/assets/images/picture.jpg"
+  email: geremy.condra@gmail.com
+  links:
+    - title: Github
+      url: https://github.com/geremy-condra
+      icon: fab fa-github-square    

@@ -38,21 +38,35 @@ words_per_minute: 200
 # Search
 search_full_content: true
 
+google_fonts:
+  - name: "Nanum Myeongjo"
+    weights: "400,400i,700,700i"
+  - name: "Roboto Condensed"
+    weights: "400,400i,700,700i"
+  - name: "Bevan"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+
+footer_links:
+  - title: Github
+    url: https://github.com/geremy-condra/geremy-condra.github.io
+    icon: fab fa-github-square
+
+copyright: Copyright 2024 Geremy Condra, all rights reserved.
+
 # Taxonomy pages
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
-
-defaults:
-    author:
-      name: Geremy Condra
-      picture: /assets/images/picture.jpg
-      email: geremy.condra@gmail.com
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-google-fonts
 
 # Exclude from processing.
 # The following items will not be processed, by default.
