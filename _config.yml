@@ -22,17 +22,37 @@ title: Nibbles and Bits
 email: geremy.condra@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about cooking, technology, and dogs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: nope
+baseurl: ""
+url: "https://nibbles-and-bits.com"
 github_username:  geremy-condra
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/dark.css"
+skin: "/assets/css/skins/custom.css"
+logo: "/assets/images/logo.png"
+
+date_format: "%B %-d, %Y"
+read_time: true
+words_per_minute: 200
+
+# Search
+search_full_content: true
+
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+defaults:
+    author:
+      name: Geremy Condra
+      picture: /assets/images/picture.jpg
+      email: geremy.condra@gmail.com
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
