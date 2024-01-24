@@ -11,7 +11,7 @@ recipe_keywords: tapas, appetizer, nachos, griz
 recipe_category: appetizer
 recipe_cuisine: American
 recipe_yield: 4
-recipe_rating: 5
+recipe_rating: 4
 recipe_preptime: 15M
 recipe_cooktime: 20M
 recipe_totaltime: 35M

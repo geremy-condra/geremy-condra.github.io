@@ -1,5 +1,5 @@
 <h2> Recipe </h2>
-<h5>Rating: {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..5) %}☆{% endfor %}{% endif %}</h5>
+<h5>Rating: {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..4) %}☆{% endfor %}{% endif %}</h5>
 {{ page.recipe_description }}
 
 <h3 style="margin: 1em 0em 0em 0em; font-weight: normal"> Ingredients </h3>
