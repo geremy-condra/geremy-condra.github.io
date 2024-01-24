@@ -1,0 +1,33 @@
+<h2> Recipe </h2>
+<h5>Rating: {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..5) %}☆{% endfor %}{% endif %}</h5>
+{{ page.recipe_description }}
+
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal"> Ingredients </h3>
+  <ul>{% for ingredient in page.recipe_ingredients %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
+  </ul>
+
+<h3 style="margin: 0em 0em 0em 0em;"> Shopping </h3>
+  {% for instruction in page.recipe_shopping %}
+    <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
+    {{ instruction.text}}
+  {% endfor %}
+
+<h3 style="margin: 1em 0em 0em 0em;"> Prep </h3>
+  {% for instruction in page.recipe_prep %}
+    <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
+    {{ instruction.text }}
+  {% endfor %}
+
+<h3 style="margin: 1em 0em 0em 0em;"> Cooking </h3>
+  {% for instruction in page.recipe_cook %}
+    <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
+    {{ instruction.text }}
+  {% endfor %}
+
+<h3 style="margin: 1em 0em 0em 0em;"> Cleanup </h3>
+  {% for instruction in page.recipe_cook %}
+    <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
+    {{ instruction.text }}
+  {% endfor %}
