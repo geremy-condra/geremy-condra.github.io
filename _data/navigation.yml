@@ -1,10 +1,6 @@
 - title: Home
   url: /
-- title: Recipes
-  url: /recipes
-- title: Reviews
-  url: /reviews
-- title: More
+- title: Tags
   url: /tags/
 - title: Search
   url: /search/

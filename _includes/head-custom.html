@@ -31,17 +31,23 @@
             {% endfor %}
             ],
           {% endif %}
-          {% if page.recipe_instructions %}
           "recipeInstructions": [
-            {% for instruction in page.recipe_instructions %}{
+            {% for instruction in page.recipe_prep %}{
                     "@type": "HowToStep",
                     {% if instruction.name %}"name": "{{ instruction.name }}"{% if instruction.text | instruction.url | instruction.image %},{% endif %}{% endif %}
                     {% if instruction.text %}"text": "{{ instruction.text }}"{% if instruction.url | instruction.image %},{% endif %}{% endif %}
                     {% if instruction.url %}"url": "{{ instruction.url }}"{% if instruction.image %},{% endif %}{% endif %}
                     {% if instruction.image %}"image": "{{ instruction.image }}"{% endif %}
-                }{% if forloop.index != page.recipe_instructions.size %},{% endif %}
+                },{% endfor %}
+            {% for instruction in page.recipe_cook %}{
+                    "@type": "HowToStep",
+                    {% if instruction.name %}"name": "{{ instruction.name }}"{% if instruction.text | instruction.url | instruction.image %},{% endif %}{% endif %}
+                    {% if instruction.text %}"text": "{{ instruction.text }}"{% if instruction.url | instruction.image %},{% endif %}{% endif %}
+                    {% if instruction.url %}"url": "{{ instruction.url }}"{% if instruction.image %},{% endif %}{% endif %}
+                    {% if instruction.image %}"image": "{{ instruction.image }}"{% endif %}
+                }{% if forloop.index != page.recipe_cook.size %},{% endif %}
             {% endfor %}
-            ],{% endif %}
+            ],
           {% if page.recipe_rating %}"review": {
             "@type": "AggregateRating",
             "ratingValue": "{{ page.recipe_rating }}",
@@ -54,7 +60,7 @@
         }
     </script>
   {% endif %}
-  {% if page.tags contains 'review' %}
+  {% if page.tags contains 'product_review' %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",

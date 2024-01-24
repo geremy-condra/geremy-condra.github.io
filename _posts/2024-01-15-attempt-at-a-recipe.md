@@ -23,6 +23,7 @@ recipe_ingredients:
   - 1/4c Chinese-style dry roasted peanuts, smashed
   - 2tbs Lao Gan Ma
   - black vinegar to taste
+
 recipe_instructions:
   - 
     name: Prepare the cucumbers for smashing.
