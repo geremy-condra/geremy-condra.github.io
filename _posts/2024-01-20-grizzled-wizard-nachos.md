@@ -111,6 +111,6 @@ recipe_cleanup:
     name: Pan cleanup
     text: >-
       Pull the parchment paper out of the pan and use a plastic pan scraper to get any burned-on cheese off. Then
-      wash and rinse as normal. Easy!
+      wash and rinse as normal.
 
 ---
