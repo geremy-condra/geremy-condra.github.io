@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grizzled Wizard nachos
+title: The Grizzled Wizard nachos
 date: 2024-01-20 17:00 -0800
 tags:
   - recipe
