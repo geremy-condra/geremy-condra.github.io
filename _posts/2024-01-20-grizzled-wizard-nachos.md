@@ -121,4 +121,4 @@ This is an attempt at recreating the nachos from my favorite (and now sadly clos
 pure drunk food and had to be made very simply because there was only ever one person serving both food and drinks,
 and you make a lot more money shuffling half a bottle of fernet down someone's throat than you do serving nachos. But
 for whatever reason, and despite the fact that their kitchen only had a toaster oven, they managed to produce some
-seriously excellent versions of classic pub grub like nachos and ham-and-cheese sandwiches.
+seriously excellent versions of classic pub grub like these nachos and ham-and-cheese sandwiches (more on that later).
