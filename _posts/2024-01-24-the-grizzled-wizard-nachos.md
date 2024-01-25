@@ -20,8 +20,8 @@ recipe_calories: 2000
 recipe_instacart_link: none
 recipe_ingredients:
   - 1lb Mexican chorizo 
-  - 1/2lb Tillamook shredded or block pepper jack cheese
-  - 1/2lb Cacique shredded or block queso quesadilla
+  - 1/2lb Tillamook pepper jack cheese
+  - 1/2lb Cacique queso quesadilla
   - 1 bag Solena white tortilla chips
   - Secret Aardvark hot sauce
 
