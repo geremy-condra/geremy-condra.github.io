@@ -16,10 +16,11 @@ recipe_preptime: 15M
 recipe_cooktime: 20M
 recipe_totaltime: 35M
 recipe_calories: 2000
+recipe_instacart_link: https://www.instacart.com/store/partner_recipes?recipeSourceUrl=https%3A%2F%2Fnibbles-and-bits.com%2F2024%2F01%2F21%2Fgrizzled-wizard-nachos.html&aff_id=4149&offer_id=1&content_id=33b6bb41-7684-455f-be1b-cf848d1d3d0d&utm_source=instacart_growth_partnerships&utm_medium=affiliate_recipe_unknown
 recipe_ingredients:
   - 1lb Mexican chorizo 
-  - 1/2lb Tillamook pepper jack cheese
-  - 1/2lb Cacique queso quesadilla
+  - 1/2lb Tillamook shredded or block pepper jack cheese
+  - 1/2lb Cacique shredded or block queso quesadilla
   - 1 bag Solena white tortilla chips
   - Secret Aardvark hot sauce
 
@@ -114,3 +115,9 @@ recipe_cleanup:
       wash and rinse as normal.
 
 ---
+
+This is an attempt at recreating the nachos from my favorite (and now sadly closed) bar, The Grizzled Wizard. They're
+pure drunk food and had to be made very simply because there was only ever one person serving both food and drinks,
+and you make a lot more money shuffling half a bottle of fernet down someone's throat than you do serving nachos. But
+for whatever reason, and despite the fact that their kitchen only had a toaster oven, they managed to produce some
+seriously excellent versions of classic pub grub like nachos and ham-and-cheese sandwiches.

@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-#Whoami
+# Whoami
 Hi, my name is Geremy Condra. I'm a general-purpose nerd living in Seattle, Washington. Thanks for stopping by.
 
 You've stumbled onto my blog, which is mostly as a record of what recipes I've tried and how they've gone, along
@@ -17,21 +17,21 @@ I try to be fair about that.
 
 If you want to contact me, geremy.condra hat gmail dort com.
 
-#Site policies
+# Site policies
 
-##Legal stuff
+## Legal stuff
 Yeah, so, don't rely on anything I say here or elsewhere. Nothing here is legal advice, good advice, advice for you,
 no warranty express or implied, as-is-how-is-where-is, yadda yadda yadda.
 
-##Copyright
+## Copyright
 It's all copyright 2024 Geremy Condra unless otherwise noted.
 
-##Use of AI
+## Use of AI
 I don't use generative AI much, but look, I wouldn't really be that surprised if it was a better cook than I am. I
 make no promises about not using it. If you don't like to hear that I'm sure there's someone out there willing to
 lie to you for the clicks.
 
-##Affiliate links
+## Affiliate links
 Yeah, I use affiliate links. They don't cost you anything, don't cost me much of anything, and mean I don't have to
 run a bajillion ads to maybe cover the cost of the domain name each year. If you like the content here and want to
 see more of it the best way to do that is to email me with effusive praise or drive up with a truckload of cash. But
