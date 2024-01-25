@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Grizzled wizard nachos
+title: Grizzled Wizard nachos
 date: 2024-01-20 17:00 -0800
 tags:
   - recipe
 
-recipe_name: grizzled wizard nachos
+recipe_name: Grizzled Wizard nachos
+recipe_author: Geremy Condra
 recipe_image: /assets/images/cucumbers.png
 recipe_keywords: tapas, appetizer, nachos, griz
 recipe_category: appetizer
@@ -16,7 +17,7 @@ recipe_preptime: 15M
 recipe_cooktime: 20M
 recipe_totaltime: 35M
 recipe_calories: 2000
-recipe_instacart_link: https://www.instacart.com/store/partner_recipes?recipeSourceUrl=https%3A%2F%2Fnibbles-and-bits.com%2F2024%2F01%2F21%2Fgrizzled-wizard-nachos.html&aff_id=4149&offer_id=1&content_id=33b6bb41-7684-455f-be1b-cf848d1d3d0d&utm_source=instacart_growth_partnerships&utm_medium=affiliate_recipe_unknown
+recipe_instacart_link: none
 recipe_ingredients:
   - 1lb Mexican chorizo 
   - 1/2lb Tillamook shredded or block pepper jack cheese
