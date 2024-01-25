@@ -17,7 +17,7 @@ recipe_preptime: 15M
 recipe_cooktime: 20M
 recipe_totaltime: 35M
 recipe_calories: 2000
-recipe_instacart_link: none
+recipe_instacart_link: https://www.instacart.com/store/list/a1fc3615-f2d1-463f-b22a-e128c2c84016?utm_medium=shared_list
 recipe_ingredients:
   - 1lb Mexican chorizo 
   - 1/2lb Tillamook pepper jack cheese
