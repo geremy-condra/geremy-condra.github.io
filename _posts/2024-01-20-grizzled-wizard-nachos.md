@@ -20,7 +20,7 @@ recipe_ingredients:
   - 1lb Mexican chorizo 
   - 1/2lb Tillamook pepper jack cheese
   - 1/2lb Cacique queso quesadilla
-  - 1 bag Solena chips
+  - 1 bag Solena white tortilla chips
   - Secret Aardvark hot sauce
 
 recipe_shopping:
