@@ -18,6 +18,14 @@ recipe_cooktime: 20M
 recipe_totaltime: 35M
 recipe_calories: 2000
 recipe_instacart_link: https://www.instacart.com/store/list/a1fc3615-f2d1-463f-b22a-e128c2c84016?utm_medium=shared_list
+recipe_instacart_alternate_link: https://www.instacart.com/store/safeway/list/59a1599c-f406-4a20-b651-cda74464f19a
+
+recipe_equipment:
+  -
+    name: Anova precision oven
+    affiliate_link: https://amzn.to/42fqRwD
+    //review_link: https://nibbles-and-bits.com
+
 recipe_ingredients:
   - 1lb Mexican chorizo 
   - 1/2lb Tillamook pepper jack cheese
@@ -116,9 +124,18 @@ recipe_cleanup:
       wash and rinse as normal.
 
 ---
+These are dive-bar-drunk-food easy and incredibly good. The secret is in the cheese mix.
 
-This is an attempt at recreating the nachos from my favorite (and now sadly closed) bar, The Grizzled Wizard. They're
-pure drunk food and had to be made very simply because there was only ever one person serving both food and drinks,
-and you make a lot more money shuffling half a bottle of fernet down someone's throat than you do serving nachos. But
-for whatever reason, and despite the fact that their kitchen only had a toaster oven, they managed to produce some
-seriously excellent versions of classic pub grub like these nachos and ham-and-cheese sandwiches (more on that later).
+This is an attempt at recreating the nachos from my favorite (and now sadly closed) bar, The Grizzled Wizard. There are
+a few really great things about them:
+
+  * Because there was only ever one person serving both food and drinks (and you make a lot more money shuffling half
+    a bottle of fernet down someone's throat than you do serving nachos) they're very simple to make.
+  * While I use my precision oven, the originals were made with just a toaster oven. No fancy equipment required!
+  * The cheese mix is useful pretty much anywhere you want a solid fat/heat/richness combo and a good melter.
+  * Everything except the final heating stages can be prepped. With some forethought these can hit the table in 10 minutes,
+    no problem.
+
+Despite the tight constraints the bar was working under they managed to produce some seriously excellent versions of classic
+pub grub like these nachos and ham-and-cheese sandwiches (more on that later). So I'm thrilled to have been able to make such
+a close copy of their recipe from home.

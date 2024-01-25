@@ -1,34 +1,42 @@
-<h2> Recipe </h2>
-<h5>Rating: {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..4) %}☆{% endfor %}{% endif %}</h5>
+<h1 style="margin: 1em 1em 0em 0em; font-weight: normal; text-decoration: underline;"> Recipe </h2>
+<b>Rating:</b> {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..4) %}☆{% endfor %}{% endif %}<br/>
+<b>OG Credit to:</b> The Grizzled Wizard staff
 {{ page.recipe_description }}
 
-<h3 style="margin: 1em 0em 0em 0em; font-weight: normal"> Ingredients </h3>
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Equipment</h3>
+  <ul>{% for equipment in page.recipe_equipment %}
+    <li><a href="{{ equipment.link }}">{{ equipment.name }}</a>{% if equipment.review_link %} (read my review <a href="{{ equipment.review_link }}">here</a>){% endif %}</li>
+    {% endfor %}
+  </ul>
+
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Ingredients </h3>
   <ul>{% for ingredient in page.recipe_ingredients %}
     <li>{{ ingredient }}</li>
     {% endfor %}
   </ul>
 
-  As usual, you can drop all of those in your Instacart cart by clicking <a href="{{ page.recipe_instacart_link }}">here</a>. If you aren't in the Seattle area, send me an email and I'll find you substitutes.
+  As usual, you can drop all of those in your Instacart cart by clicking <a href="{{ page.recipe_instacart_link }}">here</a> 
+  {% if page.recipe_instacart_alternate_link %}(alternatively <a href="{{page.recipe_instacart_alternate_link}}">here</a>){% endif %}. If you aren't in the Seattle area, send me an email and I'll find you substitutes.
 
-<h3 style="margin: 1em 0em 0em 0em;"> Shopping </h3>
+<h3 style="margin: 1em 0em 0em 0em; text-decoration: underline;"> Shopping </h3>
   {% for instruction in page.recipe_shopping %}
     <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
     {{ instruction.text}}
   {% endfor %}
 
-<h3 style="margin: 1em 0em 0em 0em;"> Prep </h3>
+<h3 style="margin: 1em 0em 0em 0em; text-decoration: underline;"> Prep </h3>
   {% for instruction in page.recipe_prep %}
     <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
     {{ instruction.text }}
   {% endfor %}
 
-<h3 style="margin: 1em 0em 0em 0em;"> Cooking </h3>
+<h3 style="margin: 1em 0em 0em 0em; text-decoration: underline;"> Cooking </h3>
   {% for instruction in page.recipe_cook %}
     <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
     {{ instruction.text }}
   {% endfor %}
 
-<h3 style="margin: 1em 0em 0em 0em;"> Cleanup </h3>
+<h3 style="margin: 1em 0em 0em 0em; text-decoration: underline;"> Cleanup </h3>
   {% for instruction in page.recipe_cleanup %}
     <h4 style="margin: 1em 0em 0em 0em;"> {{ instruction.name }} </h4>
     {{ instruction.text }}

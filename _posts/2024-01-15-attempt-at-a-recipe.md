@@ -16,6 +16,12 @@ recipe_preptime: 10M
 recipe_cooktime: 0M
 recipe_totaltime: 1H
 recipe_calories: 200
+
+recipe_equipment:
+  -
+    name: Anova steam oven
+    link: https://amzn.to/42fqRwD
+
 recipe_ingredients:
   - 3 persian cucumbers
   - 4tbs kosher salt
