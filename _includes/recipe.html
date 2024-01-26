@@ -1,6 +1,6 @@
 <h1 style="margin: 1em 1em 0em 0em; font-weight: normal; text-decoration: underline;"> Recipe </h2>
 <b>Rating:</b> {% if page.recipe_rating > 0 %}{% for star in (1..page.recipe_rating) %}★{% endfor %}{% endif %}{% if page.recipe_rating < 5 %}{% for star in (page.recipe_rating..4) %}☆{% endfor %}{% endif %}<br/>
-<b>OG Credit to:</b> The Grizzled Wizard staff
+{% if page.recipe_og_credit %}<b>OG Credit to:</b> {{ page.recipe_og_credit }} {% endif %}
 {{ page.recipe_description }}
 
 <h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Equipment</h3>

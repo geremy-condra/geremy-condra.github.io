@@ -1,0 +1,30 @@
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Summary</h3>
+{{ page.review_summary }}<br/>
+<b>Rating:</b> {% if page.review_rating > 0 %}{% for star in (1..page.review_rating) %}★{% endfor %}{% endif %}{% if page.review_rating < 5 %}{% for star in (page.review_rating..4) %}☆{% endfor %}{% endif %}<br/>
+<b>Price:</b> {{ page.review_price }}<br/>
+<b>Link:</b> <a href="{{ page.review_affiliate_link.url }}">{{ page.review_affiliate_link.source}} link here</a>
+
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Pros </h3>
+  <ul>{% for pro in page.review_pros %}
+    <li>{{ pro }}</li>
+    {% endfor %}
+  </ul>
+
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Cons </h3>
+  <ul>{% for con in page.review_cons %}
+    <li>{{ con }}</li>
+    {% endfor %}
+  </ul>
+
+<h3 style="margin: 1em 0em 0em 0em; text-decoration: underline;"> Testing </h3>
+  {% for test in page.review_tests%}
+    <h4 style="margin: 1em 0em 0em 0em;"> {{ test.name }}</h4>
+    Result:  {% if test.review_rating > 0 %}{% for star in (1..test.review_rating) %}★{% endfor %}{% endif %}{% if test.review_rating < 5 %}{% for star in (test.review_rating..4) %}☆{% endfor %}{% endif %}
+    {{ test.text | markdownify }}
+  {% endfor %}
+
+<h3 style="margin: 1em 0em 0em 0em; font-weight: normal; text-decoration: underline;"> Future tests </h3>
+  <ul>{% for test in page.review_future_tests %}
+    <li>{{ test }}</li>
+    {% endfor %}
+  </ul>

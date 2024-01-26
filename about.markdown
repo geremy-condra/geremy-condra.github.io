@@ -17,6 +17,22 @@ I try to be fair about that.
 
 If you want to contact me, geremy.condra hat gmail dort com.
 
+# Ratings
+Most of my posts will have a rating of some type, whether they're recipes or books or products. That rating is my
+subjective opinion and will probably not line up with what you see on Amazon or whatever-- and will almost always
+be lower. That's not because I think everything is terrible, but rather because I think there are genuinely incredible
+recipes and products out there and that they deserve to be separated out from the vast herd of merely good ones.
+
+## Rating scale
+Unless otherwise noted, my rating scale looks a little bit like this:
+
+* 0 stars: this product is junk or pointlessly dangerous, or this recipe is inedible. Avoid avoid avoid.
+* 1 star: this product or recipe is seriously flawed and has no significant upside. It was returned or maybe discarded.
+* 2 stars: this product or recipe has a balance of pros and cons, but it's mostly bad. I wouldn't buy or make it again.
+* 3 stars: this is a good product/recipe but has significant downsides. I do not return products at this rating, but might sell them to someone else.
+* 4 stars: we're headed towards greatness. These are often best-in-class but still have imperfections.
+* 5 stars: this is a genuinely great thing. If you can afford to make/buy this, you should.
+
 # Site policies
 
 ## Legal stuff

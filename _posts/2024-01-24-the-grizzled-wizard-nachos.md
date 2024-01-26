@@ -7,6 +7,7 @@ tags:
 
 recipe_name: Grizzled Wizard nachos
 recipe_author: Geremy Condra
+recipe_og_credit: the Grizzled Wizard staff
 recipe_image: /assets/images/cucumbers.png
 recipe_keywords: tapas, appetizer, nachos, griz
 recipe_category: appetizer
