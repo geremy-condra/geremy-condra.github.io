@@ -11,6 +11,8 @@ review_price: $170
 review_affiliate_link:
   link: https://amzn.to/3Ok8qRU
   source: Amazon
+review_brand: Bighorn
+review_sku: 
 
 review_pros:
   - Incredible sear on steaks and pork
@@ -79,5 +81,5 @@ review_future_tests:
 The Bighorn is touted as being the final word on searing steak: a 1500 degree outdoor broiler capable of producing a
 perfect crust every time. But a good broiler is one of the very most versatile tools in any kitchen, and especially
 commercially tools like a salamander are virtually ubiquitous because of it. So I set out to buy one not only to
-answer the question of whether it could be a good steak, but more broadly to determine if it could fill the role of
+answer the question of whether it could make a good steak, but more broadly to determine if it could fill the role of
 a salamander in my outdoor kitchen.

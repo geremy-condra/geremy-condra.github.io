@@ -12,7 +12,7 @@
           ],{% endif %}
           "author": {
             "@type": "Person",
-            "name": "page.recipe_author"
+            "name": "{{ page.recipe_author }}"
           },
           "datePublished": "{{ pubdate | date_to_long_string }}",
           "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}",
@@ -50,7 +50,7 @@
                 }{% if forloop.index != page.recipe_cook.size %},{% endif %}
             {% endfor %}
             ],
-          {% if page.recipe_rating %}"review": {
+          {% if page.recipe_rating %}"aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "{{ page.recipe_rating }}",
             "ratingCount": "1",
@@ -62,7 +62,7 @@
         }
     </script>
   {% endif %}
-  {% if page.tags contains 'product_review' %}
+  {% if page.tags contains 'review' %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -71,7 +71,7 @@
         "@type": "Brand",
         "name": "{{ page.review_brand }}"
       }, {% endif %}
-      {% if page.review_description %} "description": "{{ page.review_description }}",{% endif %}
+      {% if page.review_summary %} "description": "{{ page.review_summary }}",{% endif %}
       {% if page.review_sku %}"sku": "{{ page.review_sku }}",{% endif %}
       {% if page.review_image %}"image": "{{ page.review_image }}",{% endif %}
       "name": "{{ page.review_product }}",
